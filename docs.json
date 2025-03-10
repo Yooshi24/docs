@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "YoshiBot Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#d20101",
+    "light": "#d20101",
+    "dark": "#d20101"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/YoshiBotNewClear.png",
   "navigation": {
     "tabs": [
       {
