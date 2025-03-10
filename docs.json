@@ -16,9 +16,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
           {
@@ -68,8 +66,8 @@
           "icon": "slack"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "FAQ",
+          "href": "https://mintlify.com/faq",
           "icon": "newspaper"
         }
       ]
