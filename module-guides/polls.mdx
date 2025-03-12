@@ -5,24 +5,22 @@ icon: "square-poll-vertical"
 
 With the polls module you can... create polls. What else would you expect. This module uses the Polls feature that is built-in in Discord.
 
-When a user votes on a poll that counts towards the achievements module. See Achievements for more info.
+When a user votes on a poll that counts towards the achievements module. See [Achievements](https://docs.yoshibot.com/module-guides/achievements) for more info.
 
 ### Create a poll
+
 The following properties can be added when creating a poll:
 
-* Question
-  The question for the poll. Duhh.
+* **Question**\nThe question for the poll. Duhh.
 
-* Answers
-  You can add up to ten different answers per poll.
+* **Answers**\nYou can add up to ten different answers per poll.
 
-* Duration
-  The duration is in hours. To a maximum of 32 days (768 hours). This means a poll can not be less than 1 hour.
+* **Duration**\nThe duration is in hours. To a maximum of 32 days (768 hours). This means a poll can not be less than 1 hour.
 
-* Multi select
+* **Multi select**
   A true / false option. Allows the user to select multiple answers if true.
 
-* Channel
+* **Channel**
   The channel to create the poll in.
 
 A poll can be created with the following command:
@@ -30,6 +28,7 @@ A poll can be created with the following command:
 * **/poll create** *\<question> \<allow-multiselect> \<channel> \<duration>*
 
 ### End an active poll
+
 To end an active poll you need the message ID of the poll and the channel ID the poll was sent in.
 You can end a poll with the following command:
 
