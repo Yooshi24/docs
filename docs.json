@@ -1,8 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "YoshiBot Docs",
-  "title": "Test",
   "colors": {
     "primary": "#d20101",
     "light": "#d20101",
