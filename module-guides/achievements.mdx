@@ -1,0 +1,106 @@
+---
+title: 'Achievements'
+description: ''
+icon: ""
+---
+
+With the achievements module you can create your own custom achievements for your server. You can select from 6 different base types and add your own thresholds and extra requirements (only for types 1, 2 & 3). You can have up to 60 achievements.
+
+### Base types
+
+1. **Send messages**
+
+
+
+
+   Counts how many messages users send and tracks which channels these are being sent in. If a message is deleted the user's total will go down. This type supports the 'extra requirement' feature.&#x20;
+
+2. **React to messages**
+
+
+
+
+   Keeps track of how often and in which channel susers react to messages. If a reaction is removed the user's total goes down. This type supports the 'extra requirement' feature.&#x20;
+
+3. **Spend time in voice channels**
+
+
+
+
+   Keeps track of how much time you spend inside voice channels. This type supports the 'extra requirement' feature.&#x20;
+
+4. **Obtain a role**
+
+
+
+
+   Tracks what roles users have. You can only have one achievement per role.
+
+5. **Boost the server**
+
+
+
+
+   A simple achievement that checks if users have boosted your server. You can only have one achievement of this type.
+
+6. Vote on polls
+
+
+
+
+   Keeps track of how often users vote on polls. Keep in mind this only works for the built-in Discord polls feature and not for any bot polls.
+
+### Module settings & features
+
+* **Clear user data on leave** *(Default: enabled)*
+
+
+
+
+  When a user leaves your server, all their achievement data will be wiped if this is enabled. Data of banned users will always be wiped. Even when this setting is disabled.
+
+* **Notifications** *(Default: disabled)*
+
+
+
+
+  Notifications will be sent when a user completes an achievement. You can select the channel these notifications will  be sent to in the settings.
+
+* **Emoji** *(Default value:* ?&#xDFC6;*)*
+
+
+
+
+  You can pick your own emoji that will be used in the title of the notifications.
+
+### Module commands
+
+* **/achievements**
+
+
+
+
+  Displays your progress or the progress of the user you select. Includes a counter to show how far  you are / the selected user is from getting that 100% completion.Buttons can only be used by the user who used the command.
+
+* **/achievement create** *\<type> \<threshold> \<name>*
+
+
+
+
+  With this command you can create your own custom achievements for your server. Start of by selectinig one of the base types and enter a threshold and name of your choosing. Keep in mind that every achievement name has to be unique. While running the command you get the option to select an extra requirement (Read: A specific channel this achievement will track. (Only works for types 1, 2 & 3.). You also get the ability to edit the threshold and name before confirming the creation of the achievement.
+
+* **/achievement delete** *\<name>*
+
+
+
+
+  No longer want an achievement? Just delete them. Make sure to enter the correct achievement name. The input is case sensitive. You are asked to confirm deletion before the achievement is actually deleted.
+
+* **/achievement settings**
+
+
+
+
+  Opens the settings menu. Settings are described above.
+
+Found a bug or need more support? Contact our support team in our [support server](https://support.yoshibot.com/).

@@ -22,20 +22,26 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Server Management",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/markdown"
+            ]
+          },
+          {
+            "group": "Community Engagement",
+            "pages": [
+              "achievements"
+            ]
+          },
+          {
+            "group": "Social Integrations",
+            "pages": [
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Premium",
         "groups": [
           {
             "group": "API Documentation",
