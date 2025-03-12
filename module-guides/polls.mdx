@@ -5,23 +5,31 @@ icon: "square-poll-vertical"
 
 With the polls module you can... create polls. What else would you expect. This module uses the Polls feature that is built-in in Discord.
 
-When a user votes on a poll that counts towards the achievements module. See [Achievements](https://docs.yoshibot.com/module-guides/achievements) for more info.
+When a user votes on a poll that counts towards the achievements module. See [Achievements](/module-guides/achievements) for more info.
 
 ### Create a poll
 
 The following properties can be added when creating a poll:
 
-* **Question**\nThe question for the poll. Duhh.
+* **Question**
 
-* **Answers**\nYou can add up to ten different answers per poll.
+  * The question for the poll. Duhh.
 
-* **Duration**\nThe duration is in hours. To a maximum of 32 days (768 hours). This means a poll can not be less than 1 hour.
+* **Answers**
+
+  * You can add up to ten different answers per poll.
+
+* **Duration**
+
+  * The duration is in hours. To a maximum of 32 days (768 hours). This means a poll can not be less than 1 hour.
 
 * **Multi select**
-  A true / false option. Allows the user to select multiple answers if true.
+
+  * A true / false option. Allows the user to select multiple answers if true.
 
 * **Channel**
-  The channel to create the poll in.
+
+  * The channel to create the poll in.
 
 A poll can be created with the following command:
 
@@ -33,6 +41,7 @@ To end an active poll you need the message ID of the poll and the channel ID the
 You can end a poll with the following command:
 
 * **/poll end** *\<message-id> \<channel-id>*
-  You can find the message ID by right-clicking on the message and clicking on "Copy Message ID". You can find the channel ID by right-clicking on the channel in the channel list and clicking on "Copy Channel ID".
+
+  * You can find the message ID by right-clicking on the message and clicking on "Copy Message ID". You can find the channel ID by right-clicking on the channel in the channel list and clicking on "Copy Channel ID".
 
 Found a bug or need more support? Contact our support team in our [support server](https://support.yoshibot.com).
