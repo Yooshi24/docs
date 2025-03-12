@@ -30,8 +30,8 @@
           {
             "group": "Community Engagement",
             "pages": [
-              "achievements",
-              "giveaways"
+              "/module-guides/achievements",
+              "/module-guides/giveaways"
             ]
           },
           {
