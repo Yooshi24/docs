@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "palm",
   "name": "YoshiBot Docs",
   "colors": {
     "primary": "#d20101",
@@ -63,6 +63,16 @@
       }
     ],
     "global": {
+      "anchors": [
+        {
+          "ancor": "Getting Started",
+          "pages": [
+            "introduction",
+            "faq",
+            "terms-conditions"
+          ]
+        }
+      ]
     }
   },
   "logo": {
