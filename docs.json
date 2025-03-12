@@ -16,7 +16,9 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction"
+              "introduction",
+              "faq",
+              "terms-conditions"
             ]
           },
           {
