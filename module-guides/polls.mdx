@@ -11,25 +11,15 @@ When a user votes on a poll that counts towards the achievements module. See [Ac
 
 The following properties can be added when creating a poll:
 
-* **Question**
+* **Question**<br />The question for the poll. Duhh.
 
-  * The question for the poll. Duhh.
+* **Answers**<br />You can add up to ten different answers per poll.
 
-* **Answers**
+* **Duration**<br />The duration is in hours. To a maximum of 32 days (768 hours). This means a poll can not be less than 1 hour.
 
-  * You can add up to ten different answers per poll.
+* **Multi select**<br />A true / false option. Allows the user to select multiple answers if true.
 
-* **Duration**
-
-  * The duration is in hours. To a maximum of 32 days (768 hours). This means a poll can not be less than 1 hour.
-
-* **Multi select**
-
-  * A true / false option. Allows the user to select multiple answers if true.
-
-* **Channel**
-
-  * The channel to create the poll in.
+* **Channel**<br />The channel to create the poll in.
 
 A poll can be created with the following command:
 
@@ -40,8 +30,6 @@ A poll can be created with the following command:
 To end an active poll you need the message ID of the poll and the channel ID the poll was sent in.
 You can end a poll with the following command:
 
-* **/poll end** *\<message-id> \<channel-id>*
-
-  * You can find the message ID by right-clicking on the message and clicking on "Copy Message ID". You can find the channel ID by right-clicking on the channel in the channel list and clicking on "Copy Channel ID".
+* **/poll end** *\<message-id> \<channel-id>*<br />You can find the message ID by right-clicking on the message and clicking on "Copy Message ID". You can find the channel ID by right-clicking on the channel in the channel list and clicking on "Copy Channel ID".
 
 Found a bug or need more support? Contact our support team in our [support server](https://support.yoshibot.com).
