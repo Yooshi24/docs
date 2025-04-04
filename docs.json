@@ -61,8 +61,8 @@
     }
   },
   "logo": {
-    "light": "/images/YoshiBotNewClear.png",
-    "dark": "/images/YoshiBotNewClear.png"
+    "light": "/images/YoshiBot_Docs.png",
+    "dark": "/images/YoshiBot_Docs.png"
   },
   "navbar": {
     "links": [
